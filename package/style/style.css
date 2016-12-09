@@ -1,0 +1,18 @@
+span{
+    font-size: 30px;
+    color:green;
+        cursor:pointer;
+}
+span:hover{
+font-size: 50px;
+color: red;
+}
+#firstspan{
+    color:pink;
+}
+.group{
+color:#ffff00;
+}
+#secondspan{
+    color:purple;
+}
