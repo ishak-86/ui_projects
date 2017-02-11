@@ -1,19 +1,16 @@
 {
-  "name": "package",
+  "name": "contact_list",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jquery": "^3.1.1",
     "jquery-ui-dist": "^1.12.1"
-  },
-  "devDependencies": {
-    "express": "^4.14.0"
   }
 }

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Bootstrap tutorials</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        
+    </head>
+    <body>
+
+        <form class="form-group">
+            <div class="row"><!--<tr>-->
+                <div class="col-md-2" data-toggle="tooltip" data-placement="top" title="this is where you type your first name"><!--<td>-->
+                    First Name
+                </div><!--</td>-->
+                <div class="col-md-3"><!--<td>-->
+                    <input type="text"  class="form-control" name="firstName" id="firstName" required>
+                </div><!--</td>-->
+            </div><!--</tr>-->
+            <div class="row">
+                <div class="col-md-2">
+                    Last Name
+                </div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control" name="lastName" id="lastName">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    Address
+                </div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control" name="address" id="address">
+                </div>
+            </div>
+        <button class="btn btn-success" id="submit">Submit</button>
+        </form>
+        
+        
+    </body>
+    <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</html>
